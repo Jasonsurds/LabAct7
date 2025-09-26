@@ -4,6 +4,8 @@
     align-items:center; 
     justify-content: center; 
     height: 100vh;">
+
+    <!-- login -->
     <form method="POST" action="/login" style="display: flex; flex-direction: column; gap: 10px; width: 300px; padding: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
         @csrf
         <h2 style="text-align: center;">Login</h2>
